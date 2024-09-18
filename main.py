@@ -1,5 +1,11 @@
+from controller_tk import Controller
 
-from radiobutton_tk import Radiobutton
+class Main():
+    def __init__(self) -> None:
+        self.controller = Controller()
+    
+    def executar(self):
+        self.controller.iniciar()
 
-rb = Radiobutton()
-rb.visualizar_radiobutton()
+main = Main()
+main.executar()
