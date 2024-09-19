@@ -17,5 +17,3 @@ class Radiobutton():
         radio2.pack()
         janela.mainloop()
 
-rb = Radiobutton()
-rb.visualizar_radiobutton()
